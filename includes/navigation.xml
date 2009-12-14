@@ -1,0 +1,21 @@
+<?xml version='1.0' standalone='yes'?>
+<xml>
+	<navItem title="Home" href="/" />
+	<navGroup title="About" href="/about/">
+		<navItem title="About Subpage 1" href="/about/subpage1.php" />
+		<navGroup title="Subsection" href="/about/subsection/">
+			<navItem title="About Subpage 1" href="/about/subsection/subpage1.php" />
+			<navItem title="New page template" href="/about/subsection/subpage3.php" />
+			<navGroup title="Subsection" href="/about/subsection/new-subsection/">
+				<navItem title="About Subpage 1" href="/about/subsection/new-subsection/subpage1.php" />
+			</navGroup>
+		</navGroup>
+		
+		<navItem title="About Subpage 2" href="/about/subpage2.php" />
+	</navGroup>
+	<navItem title="navItem 1" href="/link1.php" />
+	<navItem title="navItem 2" href="/link2.php" />
+	<navGroup title="Contact" href="/contact/">
+		<navItem title="Thank You" href="/contact/thank-you.php" hidden="true" onState="contact" />
+	</navGroup>
+</xml>

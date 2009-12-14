@@ -1,0 +1,4 @@
+ErrorDocument 404 /404.php
+
+php_value include_path .:/var/www/vhosts/panopticdesign.com/subdomains/framework/httpdocs/includes
+php_value auto_prepend_file functions.php

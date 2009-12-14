@@ -1,0 +1,32 @@
+body, html { }
+body { background-color: #eee; }
+
+.container { background-color: #fff;  border-left: 10px solid #fff; border-right: 10px solid #fff;  }
+
+#content	{  }
+
+/* HEADER */
+#header { padding: 1em 0; margin: 1em 0;  border-bottom: 1px solid #ccc; }
+
+/* FORMS */
+label { width: 100px; float: left; }
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; padding: 1px; margin: 4px; border: 1px solid #FBC2C4; vertical-align: top; position: relative; top: 2px;   }
+form div { clear: both; }
+form strong { color: #f00; padding: 0 5px 0 0; vertical-align: top; }
+form legend strong { padding: 0; }
+form .itext { border: 1px solid #ccc; margin: 2px 0; padding: 2px; width: 250px;}
+.submit { width: 120px; margin-left: 245px; }
+
+/* NAVIGATION */
+#navigation ul	{ list-style-type: none; margin: 0; padding: 0; }
+#navigation li	{ margin: 2px 0;  }
+#navigation a	{ display: block; text-decoration: none; line-height: 2em; background-color: #eee; padding: 0 5px; }
+#navigation a:hover	{ background-color: #eff; }
+#navigation .current > a { background-color: #fee; }
+
+#navigation ul li > ul { display: none; }
+#navigation ul li.subCurrent > ul, #navigation ul li.current > ul { display: block; }
+
+#navigation ul ul a { padding: 0 0 0 20px; }
+#navigation ul ul ul a { padding: 0 0 0 40px; }
+#navigation ul ul ul ul a { padding: 0 0 0 60px; }
